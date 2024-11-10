@@ -1,7 +1,7 @@
 ### Killua-Bots
 Bot ini bukan untuk Wa, Telegram atau pun Discord tapi untuk terminal saja jadi basisnya CLI.           
 
-### Pengembang asli : HunxByts 
+### Pengembang asli : HunxByts & YoungzTa
 - Saya hanya menambah sedikit fitur
 
 bot nya masih berkembang sorry kalau menu nya dikit :v oh iya bot nya juga bisa di ajak bicara tetapi belum terlalu banyak bahasa nya hehe 
