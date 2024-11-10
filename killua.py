@@ -178,7 +178,7 @@ def generate_response(user_input):
     return "Oke sippp"
   elif user_input.lower() == "goodbye":
     return "Goodbye!"
-  elif user_input.lower() in ["nama kamu siapa","nama kamu siapa ?","kamu siapa","kamu siapa ?"]:
+  elif user_input.lower() in ["nama kamu siapa","nama kamu siapa ?","kamu siapa","kamu siapa ?",'lu siapa','nama lu siapa','siapa lu']:
     return "Saya adalah Killua-Bots"
   elif user_input.lower() in ["assalamualaikum", "Asslamualaikum"]:
     return "Waalaikum salam"
@@ -190,7 +190,7 @@ def generate_response(user_input):
     return "iyaa"
   elif user_input.lower() in ["ohh","ohh iya","ouu","Ooo"]:
     return "Hoo"
-  elif user_input.lower() in ["cok","asw","jancok","bangsat","bajngan","ngentod","asu","babi","bacot"]:
+  elif user_input.lower() in ["cok","asw","jancok","bangsat","bajngan","ngentod","asu","babi","bacot","memek","kontol"]:
     return "Jangan ngomong kasar kak nanti dosa!!"
   elif user_input.lower() in ["maaf","maaf ya","maaf yaa"]:
     return "Iyaa"
@@ -226,6 +226,17 @@ def generate_response(user_input):
     return "wkwk"
   elif user_input.lower() in ["apa","kenapa","bagaimana"]:
     return "paan ?"
+  elif user_input.lower() in ["tinggi kamu berapa","tinggimu berapa","tinggimu brp","tinggi kamu brp"] :
+    return "aku tidak mempunyai tinggi karena aku hanyalah program, kalau kamu?"
+    height = int(user_input)
+    if height <= 160 :
+     return "Yahaha pendek, Aku cuma becanda loh ya"
+    elif height => 160 and height <= 190 :
+     return "Wah Tinggi Juga ya"
+    else :
+      return "Buset lu tiang ya.."
+  elif user_input.lower() in ["siapa yang buat kamu?","siapa yang buat kamu","siapa yang membuat kamu","siapa yang membuat kamu ?","siapa yang membuatmu"] :
+     return "Yang membuat aku adalah HunxByts"
   else:
     return f"Maaf bang pesan [{Cy}{user_input}{Wh}] {Wh}tidak ada di library killua!"
 print(f'{Cy}{My_Bot} {Wh}: {Message}')
